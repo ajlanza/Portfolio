@@ -1,0 +1,15 @@
+#contact{
+  padding-bottom: 10px;
+}
+.contacts{
+  display: flex;
+}
+.gitIcon{
+  width: 32px;
+  height: 32px;
+}
+.linkedinIcon{
+  width: 38px;
+  height: 32px;
+}
+
