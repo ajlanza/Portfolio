@@ -7,19 +7,22 @@ p{
   margin: 10px;
   font-size: 16px;
 }
-ul {
+ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }    
-li {
+li{
   padding: 8px 12px;
   font-family: 'Roboto';
 }
 a{
   color: white;
 }
-.App-header {
+a:hover{
+  color: silver;
+}
+.App-header{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -29,7 +32,7 @@ a{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-footer {
+.App-footer{
   background-color: #282c34;
   color: white;
   display: flex;
