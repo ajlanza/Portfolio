@@ -16,8 +16,10 @@ export default class Projects extends Component {
   }
   render() {
     return(
+      <>
+      
       <div className='projectsContainer' id='projects'>
-        <h2>Recent Projects</h2>
+      <h2 className='projectsHeader'>Recent Projects</h2>
         {
           data.map(project => 
             <div className='project' key={project.name}>
@@ -37,6 +39,7 @@ export default class Projects extends Component {
           )
         }
       </div>
+      </>
     )
   }
 }

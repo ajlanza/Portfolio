@@ -1,6 +1,10 @@
 #projects{
   padding-top: 50px;
 }
+.projectsHeader{
+  text-align: center;
+  width: 100%;
+}
 .projectsContainer{
   display: flex;
   justify-content: space-evenly;
@@ -37,21 +41,35 @@
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .project{
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectImage{
+    display: flex;
+    min-width: 500px;
+    max-width: 700px;
+  }
+  .projectDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 500px;
+    max-width:  700px;
   }
 }
 
 @media screen and (min-width: 480px) {
 
-  .details {
+  .details{
       display: none;
   }
-  .hide {
+  .hide{
       display: inline-block;
   }
-  .show {
+  .show{
     display: none;
   }
 }
