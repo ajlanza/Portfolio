@@ -32,7 +32,9 @@
 .projectCode, .projectDevelopedWith{
   margin-top: 5px;
 }
-
+.projectDescription {
+  margin-top: 15px;
+}
 .hide{
   display: none;
 }
@@ -74,5 +76,8 @@
   }
   .show{
     display: none;
+  }
+  .projectDescription {
+    margin-top: 0px;
   }
 }
