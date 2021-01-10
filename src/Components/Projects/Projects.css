@@ -14,6 +14,7 @@
 .project{
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
   margin: 5px;
   width: 100%; 
 }
@@ -26,10 +27,12 @@
 .projectImage{
   overflow: hidden;
   width: 100%;
+  padding: 2px, 0px;
 }
 .projectCode, .projectDevelopedWith{
   margin-top: 5px;
 }
+
 .hide{
   display: none;
 }

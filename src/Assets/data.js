@@ -3,7 +3,7 @@ const data = [
     id: 1,    
     name: 'Bragging Rights',
     image: {
-      source: './braggingDesktopnew.PNG',
+      source: './BraggingRights.PNG',
       alt: 'screenshot of Bragging Rights app on a full size monitor',
       class: 'bigScreen'
     },
@@ -17,7 +17,7 @@ const data = [
     id: 2,
     name: 'Phone Triage',
     image: {
-      source: './phoneTriageDesktopnew.PNG',
+      source: './PhoneTriage.PNG',
       alt: 'screenshot of Phone Triage app on a full size monitor',
       class: 'bigScreen'
     },
@@ -30,7 +30,7 @@ const data = [
     id: 3,
     name: 'Get Out',
     image: {
-      source: './getOutDesktop.png',
+      source: './GetOut.png',
       alt:'screenshot of get out app on a full size monitor',
       class:'bigGet'
     },
